@@ -15,5 +15,12 @@
 /log/*.log
 /tmp
 
-# Ignore secret token
+# Ignore other unneeded files.
+database.yml
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
 .secret
